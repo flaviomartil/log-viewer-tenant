@@ -1,9 +1,9 @@
 {
-    "name": "opcodesio/log-viewer",
+    "name": "flaviowmartil/log-viewer",
     "description": "Fast and easy-to-use log viewer for your Laravel application",
     "keywords": [
         "arukompas",
-        "opcodesio",
+        "flaviowmartil",
         "laravel",
         "logs",
         "log viewer",
