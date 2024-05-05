@@ -1,5 +1,5 @@
 {
-    "name": "opcodesio/log-viewer",
+    "name": "flaviowmartil/log-viewer",
     "description": "Fast and easy-to-use log viewer for your Laravel application",
     "keywords": [
         "arukompas",
@@ -9,7 +9,7 @@
         "log viewer",
         "better-log-viewer"
     ],
-    "homepage": "https://github.com/opcodesio/log-viewer",
+    "homepage": "https://github.com/flaviomartil/log-viewer-tenant",
     "license": "MIT",
     "authors": [
         {
