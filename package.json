@@ -1,10 +1,10 @@
 {
-    "name": "opcodesio-log-viewer",
+    "name": "flaviomartil-log-viewer",
     "author": "Arunas Skirius <arunas@belltastic.com>",
     "private": true,
     "repository": {
         "type": "git",
-        "url": "https://github.com/opcodesio/log-viewer.git"
+        "url": "https://github.com/flaviomartil/log-viewer-tenant.git"
     },
     "scripts": {
         "dev": "npm run development",
