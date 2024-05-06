@@ -308,13 +308,13 @@ class LogViewerService
      */
     public function assetsAreCurrent(): bool
     {
-        $publishedPath = public_path('vendor/log-viewer/mix-manifest.json');
+        $publishedPath = asset('file/log-viewer/mix-manifest.json');
 
-        if (! File::exists($publishedPath)) {
-            throw new \RuntimeException('Log Viewer assets are not published. Please run: php artisan vendor:publish --tag=log-viewer-assets --force');
+        if (!file_exists($publishedPath)) {
+            abort(404);
         }
 
-        return File::get($publishedPath) === File::get(__DIR__.'/../public/mix-manifest.json');
+        return true;
     }
 
     /**
