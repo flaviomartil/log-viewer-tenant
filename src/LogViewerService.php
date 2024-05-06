@@ -308,8 +308,8 @@ class LogViewerService
      */
     public function assetsAreCurrent(): bool
     {
-        $filename =  'log-viewer/mix-manifest.json';
-        $path = storage_path('app/public/' . $filename);
+        $filename =  '/vendor/log-viewer/mix-manifest.json';
+        $path = public_path($filename);
 
         if (!file_exists($path)) {
             abort(404);
